@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="crmtestcases.CrmLog_out">
+        <methods>
+          <include name="setup"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- crmtestcases.CrmLog_out -->
+      <class name="crmtestcases.Crm_login_page_test">
+        <methods>
+          <include name="Login_Successfuly"/>
+        </methods>
+      </class> <!-- crmtestcases.Crm_login_page_test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
